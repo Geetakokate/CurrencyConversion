@@ -53,5 +53,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  resources :converts, only: [:new, :create, :show]
+
+  root to: 'converts#exchange'
+
+  resource :converts, only: [:create]
 end
