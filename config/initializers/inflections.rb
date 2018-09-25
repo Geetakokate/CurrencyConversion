@@ -14,3 +14,7 @@
 # ActiveSupport::Inflector.inflections(:en) do |inflect|
 #   inflect.acronym 'RESTful'
 # end
+
+CURRENCE_CODES =  ["DKK", "AUD", "JPY", "HRK", "NOK", "MYR", "HKD", "SEK", "HUF", 
+	"TRY", "ILS", "SGD", "CNY", "IDR", "INR", "BRL", "BGN", "USD", "CHF", "ISK", "CZK", "CAD", "PHP",
+	"MXN", "ZAR", "PLN", "NZD", "KRW", "RON", "THB", "RUB", "GBP"]
